@@ -10,19 +10,19 @@ export const metadata: Metadata = {
   openGraph: {
     title: "IX7 Game Update – How to Update & Why It Matters",
     description: "Complete guide to updating IX7 Game on Android.",
-    url: "https://ix7gaming.com/ix7-game-update",
+    url: "https://ix7gamming.com/ix7-game-update",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "IX7 Game Update" }],
   },
   twitter: { card: "summary_large_image", title: "IX7 Game Update Guide", description: "Keep IX7 Game up to date.", images: ["/og-image.png"] },
-  alternates: { canonical: "https://ix7gaming.com/ix7-game-update" },
+  alternates: { canonical: "https://ix7gamming.com/ix7-game-update" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "IX7 Game Update", item: "https://ix7gaming.com/ix7-game-update" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "IX7 Game Update", item: "https://ix7gamming.com/ix7-game-update" },
   ],
 };
 
@@ -81,7 +81,7 @@ export default function IX7GameUpdatePage() {
             </div>
             <div className="card p-4">
               <h3 className="text-xl font-semibold mb-3 text-primary">Method 2: Manual APK Download</h3>
-              <p className="text-gray-600 mb-3">If in-app updates are not working, download the latest APK from ix7gaming.com. Install it over the existing version — Android will recognize it as an update and preserve all your data. No need to uninstall the old version first.</p>
+              <p className="text-gray-600 mb-3">If in-app updates are not working, download the latest APK from ix7gamming.com. Install it over the existing version — Android will recognize it as an update and preserve all your data. No need to uninstall the old version first.</p>
               <p className="text-gray-600 text-sm">Useful when you have limited in-app connectivity or want to share the update file with friends offline.</p>
             </div>
           </div>

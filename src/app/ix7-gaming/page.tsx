@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "IX7 Gaming – Community, Tournaments & Social Gaming Hub",
     description: "Join the IX7 Gaming community. Compete in tournaments, climb leaderboards, and win exclusive prizes.",
-    url: "https://ix7gaming.com/ix7-gaming",
+    url: "https://ix7gamming.com/ix7-gaming",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "IX7 Gaming Community" }],
   },
   twitter: {
@@ -19,15 +19,15 @@ export const metadata: Metadata = {
     description: "Join the IX7 Gaming community. Compete in tournaments, climb leaderboards, and win exclusive prizes.",
     images: ["/og-image.png"],
   },
-  alternates: { canonical: "https://ix7gaming.com/ix7-gaming" },
+  alternates: { canonical: "https://ix7gamming.com/ix7-gaming" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "IX7 Gaming", item: "https://ix7gaming.com/ix7-gaming" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "IX7 Gaming", item: "https://ix7gamming.com/ix7-gaming" },
   ],
 };
 

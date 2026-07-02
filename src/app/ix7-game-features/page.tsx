@@ -10,19 +10,19 @@ export const metadata: Metadata = {
   openGraph: {
     title: "IX7 Game Features – Complete Platform Feature Breakdown",
     description: "Deep dive into every feature IX7 Game offers — games, rewards, security, and more.",
-    url: "https://ix7gaming.com/ix7-game-features",
+    url: "https://ix7gamming.com/ix7-game-features",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "IX7 Game Features" }],
   },
   twitter: { card: "summary_large_image", title: "IX7 Game Features", description: "Everything IX7 Game has to offer — a full feature breakdown.", images: ["/og-image.png"] },
-  alternates: { canonical: "https://ix7gaming.com/ix7-game-features" },
+  alternates: { canonical: "https://ix7gamming.com/ix7-game-features" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "IX7 Game Features", item: "https://ix7gaming.com/ix7-game-features" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "IX7 Game Features", item: "https://ix7gamming.com/ix7-game-features" },
   ],
 };
 

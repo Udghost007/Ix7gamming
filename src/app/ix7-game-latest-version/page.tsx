@@ -10,19 +10,19 @@ export const metadata: Metadata = {
   openGraph: {
     title: "IX7 Game Latest Version – v4.2.1 What's New",
     description: "See the full changelog and download the latest IX7 Game APK.",
-    url: "https://ix7gaming.com/ix7-game-latest-version",
+    url: "https://ix7gamming.com/ix7-game-latest-version",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "IX7 Game Latest Version" }],
   },
   twitter: { card: "summary_large_image", title: "IX7 Game Latest Version v4.2.1", description: "Full changelog and download link.", images: ["/og-image.png"] },
-  alternates: { canonical: "https://ix7gaming.com/ix7-game-latest-version" },
+  alternates: { canonical: "https://ix7gamming.com/ix7-game-latest-version" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "IX7 Game Latest Version", item: "https://ix7gaming.com/ix7-game-latest-version" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "IX7 Game Latest Version", item: "https://ix7gamming.com/ix7-game-latest-version" },
   ],
 };
 

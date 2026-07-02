@@ -10,19 +10,19 @@ export const metadata: Metadata = {
   openGraph: {
     title: "IX7 Game Play – How-to-Play Guide for Beginners",
     description: "Complete beginner's guide to playing on IX7 Game.",
-    url: "https://ix7gaming.com/ix7-game-play",
+    url: "https://ix7gamming.com/ix7-game-play",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "IX7 Game Play Guide" }],
   },
   twitter: { card: "summary_large_image", title: "How to Play IX7 Game", description: "Beginner's guide to IX7 Game.", images: ["/og-image.png"] },
-  alternates: { canonical: "https://ix7gaming.com/ix7-game-play" },
+  alternates: { canonical: "https://ix7gamming.com/ix7-game-play" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "IX7 Game Play", item: "https://ix7gaming.com/ix7-game-play" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "IX7 Game Play", item: "https://ix7gamming.com/ix7-game-play" },
   ],
 };
 

@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://ix7gaming.com";
+  const baseUrl = "https://ix7gamming.com";
 
   return [
     { url: baseUrl, lastModified: new Date(), changeFrequency: "daily", priority: 1 },

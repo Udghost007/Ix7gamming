@@ -10,19 +10,19 @@ export const metadata: Metadata = {
   openGraph: {
     title: "IX7 APK Download – Step-by-Step Guide for All Android Devices",
     description: "Complete IX7 APK download guide for Samsung, Xiaomi, Oppo, Vivo, and more.",
-    url: "https://ix7gaming.com/ix7-apk-download",
+    url: "https://ix7gamming.com/ix7-apk-download",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "IX7 APK Download Guide" }],
   },
   twitter: { card: "summary_large_image", title: "IX7 APK Download Guide", description: "Device-specific IX7 APK download instructions.", images: ["/og-image.png"] },
-  alternates: { canonical: "https://ix7gaming.com/ix7-apk-download" },
+  alternates: { canonical: "https://ix7gamming.com/ix7-apk-download" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "IX7 APK Download", item: "https://ix7gaming.com/ix7-apk-download" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "IX7 APK Download", item: "https://ix7gamming.com/ix7-apk-download" },
   ],
 };
 
@@ -105,7 +105,7 @@ export default function IX7ApkDownloadPage() {
           <h2 className="text-3xl font-bold text-center mb-10">Download Safety Tips</h2>
           <div className="max-w-3xl mx-auto">
             <ul className="space-y-4">
-              <li className="flex gap-3"><span className="text-primary font-bold">✓</span><span className="text-gray-700">Always download the IX7 APK from <strong>ix7gaming.com</strong> or the official link provided on this page. Avoid third-party mirror sites.</span></li>
+              <li className="flex gap-3"><span className="text-primary font-bold">✓</span><span className="text-gray-700">Always download the IX7 APK from <strong>ix7gamming.com</strong> or the official link provided on this page. Avoid third-party mirror sites.</span></li>
               <li className="flex gap-3"><span className="text-primary font-bold">✓</span><span className="text-gray-700">Verify the file size is approximately 55 MB. Significantly larger or smaller files may indicate a modified package.</span></li>
               <li className="flex gap-3"><span className="text-primary font-bold">✓</span><span className="text-gray-700">Use a stable Wi-Fi connection to prevent partial downloads that can corrupt the APK file.</span></li>
               <li className="flex gap-3"><span className="text-primary font-bold">✓</span><span className="text-gray-700">After installation, re-disable unknown sources for your browser to maintain device security.</span></li>

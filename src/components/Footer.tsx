@@ -166,7 +166,7 @@ export default function Footer() {
       <div className="border-t border-gray-800">
         <div className="max-w-7xl max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 py-3 sm:py-5  relative py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-sm text-gray-500">
-            Copyright &copy; 2026 ix7gaming.com | All rights reserved.
+            Copyright &copy; 2026 ix7gamming.com | All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <Link href="/privacy-policy" className="text-xs text-gray-500 hover:text-gray-400 transition-colors">Privacy Policy</Link>

@@ -3,27 +3,27 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Disclaimer – IX7 Gaming",
-  description: "Read the ix7gaming.com disclaimer. Understand the terms under which this independent informational website provides content about IX7 Game.",
-  keywords: ["IX7 Game disclaimer", "IX7 Gaming disclaimer", "ix7gaming.com disclaimer"],
+  description: "Read the ix7gamming.com disclaimer. Understand the terms under which this independent informational website provides content about IX7 Game.",
+  keywords: ["IX7 Game disclaimer", "IX7 Gaming disclaimer", "ix7gamming.com disclaimer"],
   openGraph: {
     title: "Disclaimer – IX7 Gaming",
-    description: "Understand the terms under which ix7gaming.com provides content about IX7 Game.",
-    url: "https://ix7gaming.com/disclaimer",
+    description: "Understand the terms under which ix7gamming.com provides content about IX7 Game.",
+    url: "https://ix7gamming.com/disclaimer",
   },
   twitter: {
     card: "summary",
     title: "Disclaimer – IX7 Gaming",
-    description: "Understand the terms under which ix7gaming.com provides content about IX7 Game.",
+    description: "Understand the terms under which ix7gamming.com provides content about IX7 Game.",
   },
-  alternates: { canonical: "https://ix7gaming.com/disclaimer" },
+  alternates: { canonical: "https://ix7gamming.com/disclaimer" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "Disclaimer", item: "https://ix7gaming.com/disclaimer" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "Disclaimer", item: "https://ix7gamming.com/disclaimer" },
   ],
 };
 
@@ -59,7 +59,7 @@ export default function DisclaimerPage() {
           <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-6 mb-10">
             <h2 className="text-lg font-bold text-yellow-800 mb-2">Important Notice</h2>
             <p className="text-gray-700 text-sm leading-relaxed">
-              Please read this disclaimer carefully before using ix7gaming.com. By accessing and using this website, you acknowledge that you have read, understood, and agree to be bound by the terms outlined below.
+              Please read this disclaimer carefully before using ix7gamming.com. By accessing and using this website, you acknowledge that you have read, understood, and agree to be bound by the terms outlined below.
             </p>
           </div>
 
@@ -67,14 +67,14 @@ export default function DisclaimerPage() {
             <div>
               <h2 className="text-2xl font-bold mb-3">1. Independent Website</h2>
               <p className="text-sm">
-                ix7gaming.com is an independently operated informational website. We are not affiliated with, endorsed by, or officially connected to the developers, publishers, or operators of the IX7 Game application. All product names, logos, brands, and trademarks mentioned on this site are the property of their respective owners and are used here solely for informational and descriptive purposes.
+                ix7gamming.com is an independently operated informational website. We are not affiliated with, endorsed by, or officially connected to the developers, publishers, or operators of the IX7 Game application. All product names, logos, brands, and trademarks mentioned on this site are the property of their respective owners and are used here solely for informational and descriptive purposes.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold mb-3">2. Content Accuracy</h2>
               <p className="text-sm">
-                The information provided on ix7gaming.com — including guides, tutorials, feature descriptions, and general platform details — is compiled from publicly available sources and our own research. While we strive to keep content accurate and up to date, we make no warranties or representations regarding the completeness, reliability, or timeliness of any information on this site. Features, requirements, and availability of the IX7 Game application may change without notice.
+                The information provided on ix7gamming.com — including guides, tutorials, feature descriptions, and general platform details — is compiled from publicly available sources and our own research. While we strive to keep content accurate and up to date, we make no warranties or representations regarding the completeness, reliability, or timeliness of any information on this site. Features, requirements, and availability of the IX7 Game application may change without notice.
               </p>
             </div>
 
@@ -88,14 +88,14 @@ export default function DisclaimerPage() {
             <div>
               <h2 className="text-2xl font-bold mb-3">4. No Guarantees</h2>
               <p className="text-sm">
-                ix7gaming.com does not guarantee any specific outcomes from using the IX7 Game application or following the guides published on this site. All content is provided on an &ldquo;as-is&rdquo; and &ldquo;as-available&rdquo; basis without warranties of any kind, express or implied. This includes, but is not limited to, implied warranties of merchantability, fitness for a particular purpose, and non-infringement.
+                ix7gamming.com does not guarantee any specific outcomes from using the IX7 Game application or following the guides published on this site. All content is provided on an &ldquo;as-is&rdquo; and &ldquo;as-available&rdquo; basis without warranties of any kind, express or implied. This includes, but is not limited to, implied warranties of merchantability, fitness for a particular purpose, and non-infringement.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold mb-3">5. User Responsibility</h2>
               <p className="text-sm">
-                You are solely responsible for your decisions and actions when using information from this website. This includes ensuring that downloading and using the IX7 Game application complies with all applicable laws and regulations in your jurisdiction. ix7gaming.com shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from your access to or use of this site or any external resources linked herein.
+                You are solely responsible for your decisions and actions when using information from this website. This includes ensuring that downloading and using the IX7 Game application complies with all applicable laws and regulations in your jurisdiction. ix7gamming.com shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from your access to or use of this site or any external resources linked herein.
               </p>
             </div>
 

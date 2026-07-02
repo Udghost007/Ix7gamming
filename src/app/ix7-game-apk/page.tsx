@@ -10,19 +10,19 @@ export const metadata: Metadata = {
   openGraph: {
     title: "IX7 Game APK – Download the Full Gaming Package for Android",
     description: "Download the IX7 Game APK and access 500+ premium games on your Android device.",
-    url: "https://ix7gaming.com/ix7-game-apk",
+    url: "https://ix7gamming.com/ix7-game-apk",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "IX7 Game APK" }],
   },
   twitter: { card: "summary_large_image", title: "IX7 Game APK – Full Gaming Package for Android", description: "Download IX7 Game APK for 500+ premium games.", images: ["/og-image.png"] },
-  alternates: { canonical: "https://ix7gaming.com/ix7-game-apk" },
+  alternates: { canonical: "https://ix7gamming.com/ix7-game-apk" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "IX7 Game APK", item: "https://ix7gaming.com/ix7-game-apk" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "IX7 Game APK", item: "https://ix7gamming.com/ix7-game-apk" },
   ],
 };
 

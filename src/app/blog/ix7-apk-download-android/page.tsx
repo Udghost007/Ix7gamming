@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "How to Download IX7 Game APK on Android – Step by Step Guide",
     description:
       "Step-by-step tutorial to download and install the latest IX7 Game APK on Android. Includes troubleshooting and safety tips.",
-    url: "https://ix7gaming.com/blog/ix7-apk-download-android",
+    url: "https://ix7gamming.com/blog/ix7-apk-download-android",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Download IX7 Game APK on Android" }],
   },
   twitter: {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description: "Step-by-step tutorial to download and install the latest IX7 Game APK on Android.",
     images: ["/og-image.png"],
   },
-  alternates: { canonical: "https://ix7gaming.com/blog/ix7-apk-download-android" },
+  alternates: { canonical: "https://ix7gamming.com/blog/ix7-apk-download-android" },
 };
 
 const articleJsonLd = {
@@ -36,12 +36,12 @@ const articleJsonLd = {
   headline: "How to Download IX7 Game APK on Android – Step by Step Guide",
   description:
     "Download the latest IX7 Game APK on any Android device. Covers system requirements, installation, troubleshooting, and safety tips.",
-  url: "https://ix7gaming.com/blog/ix7-apk-download-android",
+  url: "https://ix7gamming.com/blog/ix7-apk-download-android",
   datePublished: "2026-06-28",
   dateModified: "2026-06-28",
-  author: { "@type": "Organization", name: "IX7 Gaming", url: "https://ix7gaming.com" },
-  publisher: { "@type": "Organization", name: "IX7 Gaming", url: "https://ix7gaming.com" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://ix7gaming.com/blog/ix7-apk-download-android" },
+  author: { "@type": "Organization", name: "IX7 Gaming", url: "https://ix7gamming.com" },
+  publisher: { "@type": "Organization", name: "IX7 Gaming", url: "https://ix7gamming.com" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://ix7gamming.com/blog/ix7-apk-download-android" },
   keywords: "IX7 APK download, download IX7 Game, IX7 APK Android, IX7 Game APK download, IX7 latest version",
 };
 
@@ -49,9 +49,9 @@ const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://ix7gaming.com/blog" },
-    { "@type": "ListItem", position: 3, name: "Download IX7 APK", item: "https://ix7gaming.com/blog/ix7-apk-download-android" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://ix7gamming.com/blog" },
+    { "@type": "ListItem", position: 3, name: "Download IX7 APK", item: "https://ix7gamming.com/blog/ix7-apk-download-android" },
   ],
 };
 

@@ -10,19 +10,19 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Download IX7 – Official Link & Complete Setup Walkthrough",
     description: "Download IX7 from the official source. Complete setup walkthrough included.",
-    url: "https://ix7gaming.com/download-ix7",
+    url: "https://ix7gamming.com/download-ix7",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Download IX7" }],
   },
   twitter: { card: "summary_large_image", title: "Download IX7 – Official Link & Setup Guide", description: "Download IX7 and set up your account in minutes.", images: ["/og-image.png"] },
-  alternates: { canonical: "https://ix7gaming.com/download-ix7" },
+  alternates: { canonical: "https://ix7gamming.com/download-ix7" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "Download IX7", item: "https://ix7gaming.com/download-ix7" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "Download IX7", item: "https://ix7gamming.com/download-ix7" },
   ],
 };
 

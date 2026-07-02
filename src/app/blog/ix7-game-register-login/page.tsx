@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "How to Register & Login on IX7 Game – Complete Tutorial 2026",
     description:
       "Step-by-step guide to creating your IX7 Game account, logging in, recovering passwords, and securing your profile.",
-    url: "https://ix7gaming.com/blog/ix7-game-register-login",
+    url: "https://ix7gamming.com/blog/ix7-game-register-login",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "IX7 Game Register & Login Tutorial" }],
   },
   twitter: {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description: "Step-by-step guide to creating your IX7 Game account, logging in, and securing your profile.",
     images: ["/og-image.png"],
   },
-  alternates: { canonical: "https://ix7gaming.com/blog/ix7-game-register-login" },
+  alternates: { canonical: "https://ix7gamming.com/blog/ix7-game-register-login" },
 };
 
 const articleJsonLd = {
@@ -36,12 +36,12 @@ const articleJsonLd = {
   headline: "How to Register & Login on IX7 Game – Complete Tutorial 2026",
   description:
     "Create your IX7 Game account and log in securely. Covers registration, login, password recovery, 2FA, and account management.",
-  url: "https://ix7gaming.com/blog/ix7-game-register-login",
+  url: "https://ix7gamming.com/blog/ix7-game-register-login",
   datePublished: "2026-06-25",
   dateModified: "2026-06-25",
-  author: { "@type": "Organization", name: "IX7 Gaming", url: "https://ix7gaming.com" },
-  publisher: { "@type": "Organization", name: "IX7 Gaming", url: "https://ix7gaming.com" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://ix7gaming.com/blog/ix7-game-register-login" },
+  author: { "@type": "Organization", name: "IX7 Gaming", url: "https://ix7gamming.com" },
+  publisher: { "@type": "Organization", name: "IX7 Gaming", url: "https://ix7gamming.com" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://ix7gamming.com/blog/ix7-game-register-login" },
   keywords: "IX7 Game register, IX7 Game login, create IX7 account, IX7 Game sign up, IX7 login help",
 };
 
@@ -49,9 +49,9 @@ const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://ix7gaming.com/blog" },
-    { "@type": "ListItem", position: 3, name: "Register & Login", item: "https://ix7gaming.com/blog/ix7-game-register-login" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://ix7gamming.com/blog" },
+    { "@type": "ListItem", position: 3, name: "Register & Login", item: "https://ix7gamming.com/blog/ix7-game-register-login" },
   ],
 };
 

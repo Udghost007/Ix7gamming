@@ -10,19 +10,19 @@ export const metadata: Metadata = {
   openGraph: {
     title: "IX7 Game Install – Complete Installation Guide",
     description: "Step-by-step IX7 Game installation guide with troubleshooting tips.",
-    url: "https://ix7gaming.com/ix7-game-install",
+    url: "https://ix7gamming.com/ix7-game-install",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "IX7 Game Install" }],
   },
   twitter: { card: "summary_large_image", title: "IX7 Game Install Guide", description: "Install IX7 Game on Android with our step-by-step guide.", images: ["/og-image.png"] },
-  alternates: { canonical: "https://ix7gaming.com/ix7-game-install" },
+  alternates: { canonical: "https://ix7gamming.com/ix7-game-install" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "IX7 Game Install", item: "https://ix7gaming.com/ix7-game-install" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "IX7 Game Install", item: "https://ix7gamming.com/ix7-game-install" },
   ],
 };
 

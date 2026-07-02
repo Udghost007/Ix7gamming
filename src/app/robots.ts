@@ -17,7 +17,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://ix7gaming.com/sitemap.xml",
-    host: "https://ix7gaming.com",
+    sitemap: "https://ix7gamming.com/sitemap.xml",
+    host: "https://ix7gamming.com",
   };
 }

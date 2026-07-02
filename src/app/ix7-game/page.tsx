@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "IX7 Game – 500+ Premium Games on One Android Platform",
     description: "Explore the IX7 Game library with 500+ premium titles across every genre. Download free and start playing today.",
-    url: "https://ix7gaming.com/ix7-game",
+    url: "https://ix7gamming.com/ix7-game",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "IX7 Game Library" }],
   },
   twitter: {
@@ -19,15 +19,15 @@ export const metadata: Metadata = {
     description: "Explore the IX7 Game library with 500+ premium titles across every genre.",
     images: ["/og-image.png"],
   },
-  alternates: { canonical: "https://ix7gaming.com/ix7-game" },
+  alternates: { canonical: "https://ix7gamming.com/ix7-game" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "IX7 Game", item: "https://ix7gaming.com/ix7-game" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "IX7 Game", item: "https://ix7gamming.com/ix7-game" },
   ],
 };
 

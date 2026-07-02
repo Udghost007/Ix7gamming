@@ -10,19 +10,19 @@ export const metadata: Metadata = {
   openGraph: {
     title: "IX7 Game Review – Honest Platform Assessment for 2026",
     description: "An honest, detailed review of IX7 Game covering gameplay, payouts, security, and more.",
-    url: "https://ix7gaming.com/ix7-game-review",
+    url: "https://ix7gamming.com/ix7-game-review",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "IX7 Game Review" }],
   },
   twitter: { card: "summary_large_image", title: "IX7 Game Review", description: "Honest IX7 Game review — is it worth playing in 2026?", images: ["/og-image.png"] },
-  alternates: { canonical: "https://ix7gaming.com/ix7-game-review" },
+  alternates: { canonical: "https://ix7gamming.com/ix7-game-review" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "IX7 Game Review", item: "https://ix7gaming.com/ix7-game-review" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "IX7 Game Review", item: "https://ix7gamming.com/ix7-game-review" },
   ],
 };
 

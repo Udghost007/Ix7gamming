@@ -3,27 +3,27 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Privacy Policy – IX7 Gaming",
-  description: "Read the IX7 Gaming privacy policy. Learn how ix7gaming.com collects, uses, and protects your personal information when you visit our independent informational website.",
-  keywords: ["IX7 Game privacy policy", "IX7 Gaming privacy", "ix7gaming.com privacy"],
+  description: "Read the IX7 Gaming privacy policy. Learn how ix7gamming.com collects, uses, and protects your personal information when you visit our independent informational website.",
+  keywords: ["IX7 Game privacy policy", "IX7 Gaming privacy", "ix7gamming.com privacy"],
   openGraph: {
     title: "Privacy Policy – IX7 Gaming",
-    description: "Learn how ix7gaming.com collects, uses, and protects your personal information.",
-    url: "https://ix7gaming.com/privacy-policy",
+    description: "Learn how ix7gamming.com collects, uses, and protects your personal information.",
+    url: "https://ix7gamming.com/privacy-policy",
   },
   twitter: {
     card: "summary",
     title: "Privacy Policy – IX7 Gaming",
-    description: "Learn how ix7gaming.com collects, uses, and protects your personal information.",
+    description: "Learn how ix7gamming.com collects, uses, and protects your personal information.",
   },
-  alternates: { canonical: "https://ix7gaming.com/privacy-policy" },
+  alternates: { canonical: "https://ix7gamming.com/privacy-policy" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "Privacy Policy", item: "https://ix7gaming.com/privacy-policy" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "Privacy Policy", item: "https://ix7gamming.com/privacy-policy" },
   ],
 };
 
@@ -59,14 +59,14 @@ export default function PrivacyPolicyPage() {
           <div className="bg-primary-50 border border-red-200 rounded-xl p-6 mb-10">
             <h2 className="text-lg font-bold text-primary mb-2">Independent Website Notice</h2>
             <p className="text-gray-700 text-sm leading-relaxed">
-              ix7gaming.com is an independently operated informational website. We are not the official developer or publisher of the IX7 Game application. This privacy policy covers only the data practices of this website (ix7gaming.com) and does not govern the IX7 Game app itself. For the app&apos;s own privacy practices, please refer to the privacy policy provided within the application.
+              ix7gamming.com is an independently operated informational website. We are not the official developer or publisher of the IX7 Game application. This privacy policy covers only the data practices of this website (ix7gamming.com) and does not govern the IX7 Game app itself. For the app&apos;s own privacy practices, please refer to the privacy policy provided within the application.
             </p>
           </div>
 
           <div className="space-y-10 text-gray-700 leading-relaxed">
             <div>
               <h2 className="text-2xl font-bold mb-3">1. Information We Collect</h2>
-              <p className="mb-3">When you visit ix7gaming.com, we may automatically collect certain non-personal information, including:</p>
+              <p className="mb-3">When you visit ix7gamming.com, we may automatically collect certain non-personal information, including:</p>
               <ul className="list-disc pl-6 space-y-1 text-sm">
                 <li>Browser type and version</li>
                 <li>Operating system</li>
@@ -91,7 +91,7 @@ export default function PrivacyPolicyPage() {
             <div>
               <h2 className="text-2xl font-bold mb-3">3. Cookies & Tracking Technologies</h2>
               <p className="text-sm">
-                ix7gaming.com may use cookies and similar tracking technologies (such as web beacons and local storage) to enhance your browsing experience and collect aggregate analytics data. You can control cookie behavior through your browser settings. Disabling cookies may affect certain site features but will not prevent you from accessing informational content.
+                ix7gamming.com may use cookies and similar tracking technologies (such as web beacons and local storage) to enhance your browsing experience and collect aggregate analytics data. You can control cookie behavior through your browser settings. Disabling cookies may affect certain site features but will not prevent you from accessing informational content.
               </p>
             </div>
 
@@ -105,7 +105,7 @@ export default function PrivacyPolicyPage() {
             <div>
               <h2 className="text-2xl font-bold mb-3">5. External Links</h2>
               <p className="text-sm">
-                This website contains links to external sites, including the IX7 Game application portal and related resources. We are not responsible for the privacy practices or content of those external sites. We encourage you to review the privacy policies of any third-party site you visit through links on ix7gaming.com.
+                This website contains links to external sites, including the IX7 Game application portal and related resources. We are not responsible for the privacy practices or content of those external sites. We encourage you to review the privacy policies of any third-party site you visit through links on ix7gamming.com.
               </p>
             </div>
 
@@ -119,7 +119,7 @@ export default function PrivacyPolicyPage() {
             <div>
               <h2 className="text-2xl font-bold mb-3">7. Children&apos;s Privacy</h2>
               <p className="text-sm">
-                ix7gaming.com is not directed at individuals under the age of 18. We do not knowingly collect personal information from minors. If you believe a child has provided us with personal data, please contact us immediately so we can take steps to remove that information.
+                ix7gamming.com is not directed at individuals under the age of 18. We do not knowingly collect personal information from minors. If you believe a child has provided us with personal data, please contact us immediately so we can take steps to remove that information.
               </p>
             </div>
 

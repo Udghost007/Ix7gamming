@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "IX7 Game Blog – Guides, Tips & News",
     description: "Expert guides, download tutorials, and the latest news from IX7 Gaming.",
-    url: "https://ix7gaming.com/blog",
+    url: "https://ix7gamming.com/blog",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "IX7 Game Blog" }],
   },
   twitter: {
@@ -17,15 +17,15 @@ export const metadata: Metadata = {
     description: "Expert guides, download tutorials, and the latest news from IX7 Gaming.",
     images: ["/og-image.png"],
   },
-  alternates: { canonical: "https://ix7gaming.com/blog" },
+  alternates: { canonical: "https://ix7gamming.com/blog" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://ix7gaming.com/blog" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://ix7gamming.com/blog" },
   ],
 };
 
@@ -34,31 +34,31 @@ const blogJsonLd = {
   "@type": "Blog",
   name: "IX7 Game Blog",
   description: "Guides, tutorials, tips, and news about IX7 Game and IX7 Gaming.",
-  url: "https://ix7gaming.com/blog",
+  url: "https://ix7gamming.com/blog",
   publisher: {
     "@type": "Organization",
     name: "IX7 Gaming",
-    url: "https://ix7gaming.com",
+    url: "https://ix7gamming.com",
   },
   blogPost: [
     {
       "@type": "BlogPosting",
       headline: "IX7 Game Complete Guide: Everything You Need to Know in 2026",
-      url: "https://ix7gaming.com/blog/ix7-game-complete-guide",
+      url: "https://ix7gamming.com/blog/ix7-game-complete-guide",
       datePublished: "2026-07-01",
       author: { "@type": "Organization", name: "IX7 Gaming" },
     },
     {
       "@type": "BlogPosting",
       headline: "How to Download IX7 APK on Android: Step-by-Step Tutorial",
-      url: "https://ix7gaming.com/blog/ix7-apk-download-android",
+      url: "https://ix7gamming.com/blog/ix7-apk-download-android",
       datePublished: "2026-06-28",
       author: { "@type": "Organization", name: "IX7 Gaming" },
     },
     {
       "@type": "BlogPosting",
       headline: "IX7 Game Register & Login: Create Your Account in 60 Seconds",
-      url: "https://ix7gaming.com/blog/ix7-game-register-login",
+      url: "https://ix7gamming.com/blog/ix7-game-register-login",
       datePublished: "2026-06-25",
       author: { "@type": "Organization", name: "IX7 Gaming" },
     },

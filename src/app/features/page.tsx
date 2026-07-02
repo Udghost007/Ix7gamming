@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "IX7 Game Features – Everything You Need in One App",
     description: "500+ games, bank-level security, daily rewards, real-time leaderboards, and more. Discover what makes IX7 Game the ultimate Android gaming platform.",
-    url: "https://ix7gaming.com/features",
+    url: "https://ix7gamming.com/features",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "IX7 Game Features" }],
   },
   twitter: {
@@ -19,15 +19,15 @@ export const metadata: Metadata = {
     description: "500+ games, bank-level security, daily rewards, and more. Discover IX7 Game.",
     images: ["/og-image.png"],
   },
-  alternates: { canonical: "https://ix7gaming.com/features" },
+  alternates: { canonical: "https://ix7gamming.com/features" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "Features", item: "https://ix7gaming.com/features" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "Features", item: "https://ix7gamming.com/features" },
   ],
 };
 

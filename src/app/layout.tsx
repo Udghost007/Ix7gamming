@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ix7gaming.com"),
+  metadataBase: new URL("https://ix7gamming.com"),
   title: {
     default: "IX7 Game – Download APK, Login, Register & Complete Guide 2026",
     template: "%s | IX7 Game",
@@ -36,9 +36,9 @@ export const metadata: Metadata = {
     "ix7game",
     "ix7gaming",
   ],
-  authors: [{ name: "ix7gaming.com" }],
-  creator: "ix7gaming.com",
-  publisher: "ix7gaming.com",
+  authors: [{ name: "ix7gamming.com" }],
+  creator: "ix7gamming.com",
+  publisher: "ix7gamming.com",
   robots: {
     index: true,
     follow: true,
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://ix7gaming.com",
+    url: "https://ix7gamming.com",
     siteName: "IX7 Game",
     title: "IX7 Game – Download APK, Login, Register & Complete Guide 2026",
     description:
@@ -92,23 +92,23 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://ix7gaming.com/#website",
-      url: "https://ix7gaming.com",
+      "@id": "https://ix7gamming.com/#website",
+      url: "https://ix7gamming.com",
       name: "IX7 Game",
       description:
         "IX7 Game is a premium Android gaming platform. Download APK, register, login, and explore features.",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://ix7gaming.com/?s={search_term_string}",
+        target: "https://ix7gamming.com/?s={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     },
     {
       "@type": "Organization",
-      "@id": "https://ix7gaming.com/#organization",
+      "@id": "https://ix7gamming.com/#organization",
       name: "IX7 Game",
-      url: "https://ix7gaming.com",
-      logo: "https://ix7gaming.com/logo.webp",
+      url: "https://ix7gamming.com",
+      logo: "https://ix7gamming.com/logo.webp",
       sameAs: [
         "https://www.facebook.com/ix7game",
         "https://t.me/ix7game"

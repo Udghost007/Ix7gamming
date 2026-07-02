@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "IX7 Game Complete Guide 2026 – Everything You Need to Know",
     description:
       "Master IX7 Game with our definitive 2026 guide covering downloads, registration, rewards, and pro strategies.",
-    url: "https://ix7gaming.com/blog/ix7-game-complete-guide",
+    url: "https://ix7gamming.com/blog/ix7-game-complete-guide",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "IX7 Game Complete Guide 2026" }],
   },
   twitter: {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     description: "Master IX7 Game with our definitive 2026 guide covering downloads, registration, rewards, and pro strategies.",
     images: ["/og-image.png"],
   },
-  alternates: { canonical: "https://ix7gaming.com/blog/ix7-game-complete-guide" },
+  alternates: { canonical: "https://ix7gamming.com/blog/ix7-game-complete-guide" },
 };
 
 const articleJsonLd = {
@@ -38,12 +38,12 @@ const articleJsonLd = {
   headline: "IX7 Game Complete Guide 2026 – Everything You Need to Know",
   description:
     "Master IX7 Game with our definitive 2026 guide. Learn how to download the APK, register your account, claim rewards, and unlock pro-level strategies.",
-  url: "https://ix7gaming.com/blog/ix7-game-complete-guide",
+  url: "https://ix7gamming.com/blog/ix7-game-complete-guide",
   datePublished: "2026-07-01",
   dateModified: "2026-07-01",
-  author: { "@type": "Organization", name: "IX7 Gaming", url: "https://ix7gaming.com" },
-  publisher: { "@type": "Organization", name: "IX7 Gaming", url: "https://ix7gaming.com" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://ix7gaming.com/blog/ix7-game-complete-guide" },
+  author: { "@type": "Organization", name: "IX7 Gaming", url: "https://ix7gamming.com" },
+  publisher: { "@type": "Organization", name: "IX7 Gaming", url: "https://ix7gamming.com" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://ix7gamming.com/blog/ix7-game-complete-guide" },
   keywords: "IX7 Game guide, IX7 complete guide, IX7 APK guide 2026, IX7 Game tutorial, IX7 Gaming",
 };
 
@@ -51,9 +51,9 @@ const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://ix7gaming.com/blog" },
-    { "@type": "ListItem", position: 3, name: "IX7 Game Complete Guide", item: "https://ix7gaming.com/blog/ix7-game-complete-guide" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://ix7gamming.com/blog" },
+    { "@type": "ListItem", position: 3, name: "IX7 Game Complete Guide", item: "https://ix7gamming.com/blog/ix7-game-complete-guide" },
   ],
 };
 

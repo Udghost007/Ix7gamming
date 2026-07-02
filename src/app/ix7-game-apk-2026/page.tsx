@@ -10,19 +10,19 @@ export const metadata: Metadata = {
   openGraph: {
     title: "IX7 Game APK 2026 – Download the Latest Version",
     description: "Get the official IX7 Game APK 2026 with new features, faster performance, and improved security.",
-    url: "https://ix7gaming.com/ix7-game-apk-2026",
+    url: "https://ix7gamming.com/ix7-game-apk-2026",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "IX7 Game APK 2026" }],
   },
   twitter: { card: "summary_large_image", title: "IX7 Game APK 2026", description: "Download the latest IX7 Game APK for 2026.", images: ["/og-image.png"] },
-  alternates: { canonical: "https://ix7gaming.com/ix7-game-apk-2026" },
+  alternates: { canonical: "https://ix7gamming.com/ix7-game-apk-2026" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "IX7 Game APK 2026", item: "https://ix7gaming.com/ix7-game-apk-2026" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "IX7 Game APK 2026", item: "https://ix7gamming.com/ix7-game-apk-2026" },
   ],
 };
 

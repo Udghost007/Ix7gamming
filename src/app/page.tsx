@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "IX7 Game – Download APK, Register & Play 500+ Games | Complete Guide 2026",
     description: "Your complete guide to IX7 Game. Download the latest IX7 APK for free, register in 60 seconds, and explore 500+ premium games on Android.",
-    url: "https://ix7gaming.com",
+    url: "https://ix7gamming.com",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "IX7 Game – Premium Android Gaming Platform" }],
   },
   twitter: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description: "Your complete guide to IX7 Game. Download the latest IX7 APK for free, register in 60 seconds, and explore 500+ premium games on Android.",
     images: ["/og-image.png"],
   },
-  alternates: { canonical: "https://ix7gaming.com" },
+  alternates: { canonical: "https://ix7gamming.com" },
 };
 
 const faqJsonLd = {

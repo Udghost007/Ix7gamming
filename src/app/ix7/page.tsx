@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "IX7 – The Ultimate Gaming Platform for Android Players",
     description: "Discover IX7, the premier Android gaming platform with 500+ games, daily bonuses, and a thriving community.",
-    url: "https://ix7gaming.com/ix7",
+    url: "https://ix7gamming.com/ix7",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "IX7 Gaming Platform" }],
   },
   twitter: {
@@ -19,15 +19,15 @@ export const metadata: Metadata = {
     description: "Discover IX7, the premier Android gaming platform with 500+ games, daily bonuses, and a thriving community.",
     images: ["/og-image.png"],
   },
-  alternates: { canonical: "https://ix7gaming.com/ix7" },
+  alternates: { canonical: "https://ix7gamming.com/ix7" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "IX7", item: "https://ix7gaming.com/ix7" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "IX7", item: "https://ix7gamming.com/ix7" },
   ],
 };
 

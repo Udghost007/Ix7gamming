@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Download IX7 Game APK – Free Android Install Guide 2026",
     description: "Get the latest IX7 Game APK for Android. Free, safe, and under 60 MB. Step-by-step guide included.",
-    url: "https://ix7gaming.com/download",
+    url: "https://ix7gamming.com/download",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Download IX7 Game APK" }],
   },
   twitter: {
@@ -19,15 +19,15 @@ export const metadata: Metadata = {
     description: "Get the latest IX7 Game APK for Android. Free, safe, and under 60 MB. Step-by-step guide included.",
     images: ["/og-image.png"],
   },
-  alternates: { canonical: "https://ix7gaming.com/download" },
+  alternates: { canonical: "https://ix7gamming.com/download" },
 };
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
-    { "@type": "ListItem", position: 2, name: "Download", item: "https://ix7gaming.com/download" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gamming.com" },
+    { "@type": "ListItem", position: 2, name: "Download", item: "https://ix7gamming.com/download" },
   ],
 };
 

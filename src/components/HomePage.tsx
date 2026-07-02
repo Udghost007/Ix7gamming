@@ -406,7 +406,7 @@ export default function HomePage() {
               { icon: "🔄", tip: "Update IX7 Game weekly to access new games and performance improvements." },
               { icon: "📖", tip: "Read bonus terms carefully — wagering requirements vary by promotion." },
               { icon: "🛡️", tip: "Never share your login credentials or OTP with anyone." },
-              { icon: "✅", tip: "Only download the IX7 APK from ix7gaming.com or the official link." },
+              { icon: "✅", tip: "Only download the IX7 APK from ix7gamming.com or the official link." },
               { icon: "🎮", tip: "Set a daily time limit to enjoy gaming responsibly." },
             ].map((t, i) => (
               <div key={i} className="flex items-center gap-4 card-static p-5">
