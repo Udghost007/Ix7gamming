@@ -125,7 +125,7 @@ export default function HomePage() {
               alt="IX7 Game - Premium Android Gaming Platform APK Download"
               width={180}
               height={180}
-              className="w-[100px] sm:w-[180px] mx-auto mb-6 drop-shadow-2xl animate-fade-in"
+              className="w-[100px] sm:w-[180px] mx-auto mb-6 drop-shadow-2xl animate-fade-in sm:pt-10"
               priority
             />
             <span className="inline-block px-2 sm:px-4 py-1.5 rounded-full bg-white/20 text-black text-sm font-medium mb-3 sm:mb-4 animate-fade-in backdrop-blur-sm">
