@@ -1,0 +1,150 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+
+const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
+
+export const metadata: Metadata = {
+  title: "IX7 Gaming – Community, Tournaments & Social Gaming Hub",
+  description: "IX7 Gaming brings together a vibrant community of mobile gamers. Join tournaments, compete on leaderboards, connect with friends, and win exclusive prizes on the IX7 platform.",
+  keywords: ["IX7 Gaming", "IX7 Gaming community", "IX7 tournaments", "IX7 leaderboard", "IX7 social gaming", "IX7 Gaming 2026"],
+  openGraph: {
+    title: "IX7 Gaming – Community, Tournaments & Social Gaming Hub",
+    description: "Join the IX7 Gaming community. Compete in tournaments, climb leaderboards, and win exclusive prizes.",
+    url: "https://ix7gaming.com/ix7-gaming",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "IX7 Gaming Community" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "IX7 Gaming – Community, Tournaments & Social Gaming Hub",
+    description: "Join the IX7 Gaming community. Compete in tournaments, climb leaderboards, and win exclusive prizes.",
+    images: ["/og-image.png"],
+  },
+  alternates: { canonical: "https://ix7gaming.com/ix7-gaming" },
+};
+
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ix7gaming.com" },
+    { "@type": "ListItem", position: 2, name: "IX7 Gaming", item: "https://ix7gaming.com/ix7-gaming" },
+  ],
+};
+
+export default function IX7GamingPage() {
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+
+      <section className="hero-gradient-soft relative overflow-hidden">
+        <div className="container section-padding mx-auto text-center mx-auto">
+          <nav className="mb-6 text-sm text-gray-500">
+            <Link href="/" className="hover:text-primary">Home</Link>
+            <span className="mx-2">/</span>
+            <span className="text-gray-800 font-medium">IX7 Gaming</span>
+          </nav>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            <span className="gradient-text">IX7 Gaming</span> – More Than Just Games
+          </h1>
+          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+            IX7 Gaming is a thriving ecosystem where players connect, compete, and celebrate. From daily tournaments to community events, discover why thousands of gamers call IX7 their home.
+          </p>
+          <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta text-lg px-10 py-4">
+            Join IX7 Gaming
+          </a>
+        </div>
+      </section>
+
+      {/* Community Features */}
+      <section>
+        <div className="container section-padding mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-10">The IX7 Gaming Community</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="card p-4">
+              <h3 className="text-xl font-semibold mb-3 text-primary">Player Forums & Chat</h3>
+              <p className="text-gray-600 mb-3">
+                IX7 Gaming includes built-in chat rooms and community forums where players share strategies, celebrate wins, and build friendships. Each game category has its own dedicated channel, so you can connect with like-minded players instantly.
+              </p>
+              <p className="text-gray-600">
+                Community moderators ensure a positive environment around the clock, and top contributors earn special badges and recognition on their profiles.
+              </p>
+            </div>
+            <div className="card p-4">
+              <h3 className="text-xl font-semibold mb-3 text-primary">Referral Network</h3>
+              <p className="text-gray-600 mb-3">
+                Invite friends to IX7 Gaming and earn commissions on their activity — not just once, but as a recurring passive income stream. The multi-tier referral system rewards you for building a network of active players.
+              </p>
+              <p className="text-gray-600">
+                Top referrers earn VIP status, exclusive bonuses, and invitations to private IX7 Gaming events held throughout the year.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Tournaments */}
+      <section className="bg-surface">
+        <div className="container section-padding mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-4">Tournaments & Competitions</h2>
+          <p className="text-gray-600 text-center max-w-2xl mx-auto mb-10">
+            IX7 Gaming hosts daily, weekly, and monthly tournaments across all game categories. Here is a snapshot of what is running right now.
+          </p>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { name: "Daily Slot Showdown", freq: "Every day, 8 PM", prize: "₹50,000 prize pool", desc: "Compete for the highest multiplier in featured slot games. Top 20 players split the pot." },
+              { name: "Weekend Live Table Championship", freq: "Saturday & Sunday", prize: "₹200,000 prize pool", desc: "Baccarat and blackjack face-offs with live dealers. Points based on win streaks and total hands played." },
+              { name: "Monthly Mega Tournament", freq: "Last week of each month", prize: "₹1,000,000+ prize pool", desc: "The biggest IX7 Gaming event. All games contribute points. Top 100 players win cash, bonuses, and VIP upgrades." },
+            ].map((t, i) => (
+              <div key={i} className="card p-4">
+                <h3 className="text-xl font-semibold mb-2 text-primary">{t.name}</h3>
+                <p className="text-sm text-gray-500 mb-1">{t.freq}</p>
+                <p className="text-sm font-bold text-primary mb-3">{t.prize}</p>
+                <p className="text-gray-600">{t.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Social Features */}
+      <section className="bg-primary-50">
+        <div className="container section-padding mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-10">Social Features in IX7 Gaming</h2>
+          <div className="grid md:grid-cols-4 gap-6 p-4">
+            {[
+              { title: "Friend Lists", desc: "Add friends, see who is online, and challenge them to head-to-head matches." },
+              { title: "Leaderboards", desc: "Global and category-specific rankings updated in real-time. Climb the ladder and earn recognition." },
+              { title: "Achievement Badges", desc: "Unlock collectible badges for milestones like first win, 100-game streak, and tournament victories." },
+              { title: "Gift System", desc: "Send bonus credits, free spins, or cosmetic items to friends directly through the IX7 Gaming app." },
+            ].map((f, i) => (
+              <div key={i} className="card-static text-center p-4">
+                <h3 className="text-lg font-semibold mb-2">{f.title}</h3>
+                <p className="text-gray-600 text-sm">{f.desc}</p>
+              </div>
+            ))}
+          </div>
+          <div className="text-center mt-10">
+            <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-3">
+              Join the Community
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Internal Links */}
+      <section>
+        <div className="container section-padding mx-auto">
+          <h2 className="text-2xl font-bold text-center mb-8">Explore IX7</h2>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link href="/ix7" className="btn-outline">About IX7</Link>
+            <Link href="/ix7-game" className="btn-outline">IX7 Game Library</Link>
+            <Link href="/download" className="btn-outline">Download APK</Link>
+            <Link href="/ix7-game-bonus" className="btn-outline">Bonuses</Link>
+            <Link href="/ix7-game-rewards" className="btn-outline">Rewards</Link>
+            <Link href="/ix7-game-register" className="btn-outline">Register</Link>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
