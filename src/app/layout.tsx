@@ -83,7 +83,7 @@ export const metadata: Metadata = {
     images: ["/og-image.png"],
   },
   verification: {
-    google: "ix7gaming-verification-pending",
+    google: "tkGjSFwQ7d_fU5V8vLiKvdsjeNB_JmW2bsU_PVZr578",
   },
 };
 
