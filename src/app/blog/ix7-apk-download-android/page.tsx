@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TrackedCTALink from "@/components/TrackedCTALink";
 
-const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
+
 
 export const metadata: Metadata = {
   title: "How to Download IX7 Game APK on Android – Step by Step Guide",
@@ -188,9 +189,9 @@ export default function IX7ApkDownloadPage() {
                   ))}
                 </div>
                 <div className="mt-8 text-center">
-                  <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta inline-block">
+                  <TrackedCTALink location="ix7_apk_download_android_cta" className="btn-cta inline-block">
                     Download IX7 Game APK Now
-                  </a>
+                  </TrackedCTALink>
                 </div>
               </article>
 
@@ -244,9 +245,9 @@ export default function IX7ApkDownloadPage() {
                 <p className="text-sm text-text-secondary mb-4">
                   Get the official IX7 APK — lightweight, fast, and always up to date.
                 </p>
-                <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta w-full block mb-4">
+                <TrackedCTALink location="ix7_apk_download_android_cta" className="btn-cta w-full block mb-4">
                   Download Now
-                </a>
+                </TrackedCTALink>
                 <p className="text-xs text-text-muted">Android 7.0+ &bull; 42 MB &bull; Free</p>
               </div>
 

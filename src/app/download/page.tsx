@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TrackedCTALink from "@/components/TrackedCTALink";
 
-const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
+
 
 export const metadata: Metadata = {
   title: "Download IX7 Game APK – Free Android Install Guide (Latest Version 2026)",
@@ -75,9 +76,9 @@ export default function DownloadPage() {
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             Get the latest version of IX7 Game on your Android device in under two minutes. Free, lightweight, and packed with 500+ premium titles.
           </p>
-          <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta text-lg px-10 py-4">
+          <TrackedCTALink location="download_cta" className="btn-cta text-lg px-10 py-4">
             Download IX7 APK Now
-          </a>
+          </TrackedCTALink>
         </div>
         <div className="absolute bottom-0 left-0 w-full">
           <svg viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full"><path d="M0 60L1440 60L1440 0C1440 0 1080 60 720 60C360 60 0 0 0 0L0 60Z" fill="white" /></svg>
@@ -163,9 +164,9 @@ export default function DownloadPage() {
             The IX7 Game APK is free, lightweight, and installs in seconds. Grab it now and unlock access to 500+ premium games on your Android device.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta">
+            <TrackedCTALink location="download_cta" className="btn-cta">
               Download IX7 APK
-            </a>
+            </TrackedCTALink>
             <Link href="/features" className="btn-outline">
               View Features
             </Link>

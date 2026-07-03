@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TrackedCTALink from "@/components/TrackedCTALink";
 
-const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
+
 
 export const metadata: Metadata = {
   title: "IX7 Game Features – 500+ Games, Security, Rewards & More",
@@ -173,9 +174,9 @@ export default function FeaturesPage() {
             Download IX7 Game for free and see why over 2 million Android gamers have made it their platform of choice.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta">
+            <TrackedCTALink location="features_cta" className="btn-cta">
               Download IX7 APK
-            </a>
+            </TrackedCTALink>
             <Link href="/about" className="btn-outline">
               Learn About IX7
             </Link>

@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TrackedCTALink from "@/components/TrackedCTALink";
 
-const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
+
 
 export const metadata: Metadata = {
   title: "Download IX7 – Official Link & Complete Setup Walkthrough",
@@ -44,9 +45,9 @@ export default function DownloadIX7Page() {
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             This page is your complete walkthrough for downloading IX7, setting up the app, and launching your first gaming session. Follow along step by step and you will be playing within five minutes.
           </p>
-          <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta text-lg px-10 py-4">
+          <TrackedCTALink location="download_ix7_cta" className="btn-cta text-lg px-10 py-4">
             Download IX7
-          </a>
+          </TrackedCTALink>
         </div>
       </section>
 
@@ -101,9 +102,9 @@ export default function DownloadIX7Page() {
             </div>
           </div>
           <div className="text-center mt-10">
-            <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-3">
+            <TrackedCTALink location="download_ix7_cta" className="btn-primary px-8 py-3">
               Download IX7 Now
-            </a>
+            </TrackedCTALink>
           </div>
         </div>
       </section>

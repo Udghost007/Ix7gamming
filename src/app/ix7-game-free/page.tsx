@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TrackedCTALink from "@/components/TrackedCTALink";
 
-const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
+
 
 export const metadata: Metadata = {
   title: "IX7 Game Free – 100% Free Download, No Hidden Charges",
@@ -44,9 +45,9 @@ export default function IX7GameFreePage() {
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             Wondering if IX7 Game really is free? The answer is a resounding yes. The download costs nothing, registration is free, and you receive bonus credits just for signing up. Here is the full breakdown of what you get without spending a single rupee.
           </p>
-          <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta text-lg px-10 py-4">
+          <TrackedCTALink location="ix7_game_free_cta" className="btn-cta text-lg px-10 py-4">
             Get IX7 Game Free
-          </a>
+          </TrackedCTALink>
         </div>
       </section>
 
@@ -114,9 +115,9 @@ export default function IX7GameFreePage() {
             </table>
           </div>
           <div className="text-center mt-10">
-            <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-3">
+            <TrackedCTALink location="ix7_game_free_cta" className="btn-primary px-8 py-3">
               Start Playing Free
-            </a>
+            </TrackedCTALink>
           </div>
         </div>
       </section>

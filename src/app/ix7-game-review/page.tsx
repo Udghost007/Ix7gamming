@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TrackedCTALink from "@/components/TrackedCTALink";
 
-const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
+
 
 export const metadata: Metadata = {
   title: "IX7 Game Review – Honest Platform Assessment for 2026",
@@ -44,9 +45,9 @@ export default function IX7GameReviewPage() {
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             With so many gaming platforms available in 2026, choosing the right one matters. This IX7 Game review is based on months of hands-on experience covering every aspect of the platform — from registration and deposits to gameplay mechanics, payout reliability, and customer support. We present the facts so you can make an informed decision.
           </p>
-          <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta text-lg px-10 py-4">
+          <TrackedCTALink location="ix7_game_review_cta" className="btn-cta text-lg px-10 py-4">
             Try IX7 Game Yourself
-          </a>
+          </TrackedCTALink>
         </div>
       </section>
 
@@ -134,9 +135,9 @@ export default function IX7GameReviewPage() {
             </p>
           </div>
           <div className="text-center mt-10">
-            <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-3">
+            <TrackedCTALink location="ix7_game_review_cta" className="btn-primary px-8 py-3">
               Join IX7 Game Today
-            </a>
+            </TrackedCTALink>
           </div>
         </div>
       </section>

@@ -2,8 +2,7 @@ import { Suspense } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import FaqAccordion from "./FaqAccordion";
-
-const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
+import TrackedCTALink from "./TrackedCTALink";
 
 const infoRows = [
   { label: "Application", value: "IX7 Game" },
@@ -138,12 +137,12 @@ export default function HomePage() {
               Experience next-level mobile gaming with IX7. Download the IX7 APK, register in 60 seconds, and unlock daily rewards, exclusive bonuses, and a massive game library — all optimized for your Android device.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-slide-up delay-300">
-              <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta !text-lg !py-3 sm:!py-4 !px-10 !bg-white !text-white !shadow-xl hover:!bg-gray-50">
+              <TrackedCTALink location="hero_download_btn" className="btn-cta !text-lg !py-3 sm:!py-4 !px-10 !bg-white !text-white !shadow-xl hover:!bg-gray-50">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                 </svg>
                 Download IX7 APK Free
-              </a>
+              </TrackedCTALink>
               <Link href="/features" className="btn-outline !border-[#dc2626] !text-[#dc2626] hover:!bg-white hover:!text-primary !text-lg !py-2 sm:!py-4 !px-10">
                 Explore Features
               </Link>
@@ -187,12 +186,12 @@ export default function HomePage() {
             </table>
           </div>
           <div className="text-center mt-8">
-            <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta !text-lg !py-4 !px-10 w-full sm:w-auto justify-center">
+            <TrackedCTALink location="info_table_download_btn" className="btn-cta !text-lg !py-4 !px-10 w-full sm:w-auto justify-center">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
               Get IX7 Game Now
-            </a>
+            </TrackedCTALink>
           </div>
         </div>
       </section>
@@ -294,12 +293,12 @@ export default function HomePage() {
                   </div>
                 ))}
               </div>
-              <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta mt-8 inline-flex">
+              <TrackedCTALink location="guide_download_btn" className="btn-cta mt-8 inline-flex">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                 </svg>
                 Download IX7 APK Now
-              </a>
+              </TrackedCTALink>
             </div>
 
             <div>

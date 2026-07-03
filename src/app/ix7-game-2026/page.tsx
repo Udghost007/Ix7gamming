@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TrackedCTALink from "@/components/TrackedCTALink";
 
-const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
+
 
 export const metadata: Metadata = {
   title: "IX7 Game 2026 – What's New This Year on the IX7 Platform",
@@ -44,9 +45,9 @@ export default function IX7Game2026Page() {
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             2026 is IX7&apos;s most ambitious year yet. From a complete UI overhaul to esports betting, expanded language support, and a 30% performance boost — here is everything that makes IX7 Game the platform to watch this year.
           </p>
-          <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta text-lg px-10 py-4">
+          <TrackedCTALink location="ix7_game_2026_cta" className="btn-cta text-lg px-10 py-4">
             Experience IX7 2026
-          </a>
+          </TrackedCTALink>
         </div>
       </section>
 
@@ -115,9 +116,9 @@ export default function IX7Game2026Page() {
             ))}
           </div>
           <div className="text-center mt-10">
-            <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-3">
+            <TrackedCTALink location="ix7_game_2026_cta" className="btn-primary px-8 py-3">
               Join IX7 in 2026
-            </a>
+            </TrackedCTALink>
           </div>
         </div>
       </section>

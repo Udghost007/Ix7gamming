@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TrackedCTALink from "@/components/TrackedCTALink";
 
-const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
+
 
 export const metadata: Metadata = {
   title: "IX7 Game APK Download – Verified File, Zero Malware, Instant Access",
@@ -44,9 +45,9 @@ export default function IX7GameApkDownloadPage() {
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             Download the authentic IX7 Game APK with verified integrity. Every release on this page has been scanned, tested, and confirmed safe by the IX7 security team. No adware, no trackers, no compromises.
           </p>
-          <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta text-lg px-10 py-4">
+          <TrackedCTALink location="ix7_game_apk_download_cta" className="btn-cta text-lg px-10 py-4">
             Download IX7 Game APK
-          </a>
+          </TrackedCTALink>
         </div>
       </section>
 
@@ -103,9 +104,9 @@ export default function IX7GameApkDownloadPage() {
           <p className="text-gray-600 max-w-2xl mx-auto mb-8">
             Tap the button below to download the latest verified IX7 Game APK. The file is under 60 MB and installs in seconds. Your gaming adventure starts now.
           </p>
-          <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta text-lg px-10 py-4">
+          <TrackedCTALink location="ix7_game_apk_download_cta" className="btn-cta text-lg px-10 py-4">
             Download IX7 Game APK Now
-          </a>
+          </TrackedCTALink>
         </div>
       </section>
 

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { trackCTAClick, trackNavClick } from "@/lib/gtag";
 
 const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
 
@@ -41,7 +42,7 @@ export default function MobileMenu() {
               <Link
                 key={link.name}
                 href={link.href}
-                onClick={() => setMobileOpen(false)}
+                onClick={() => { trackNavClick(link.name + "_mobile"); setMobileOpen(false); }}
                 className="block px-4 py-3 rounded-lg text-sm font-medium text-text-secondary hover:text-primary hover:bg-primary-50 transition-all"
               >
                 {link.name}
@@ -52,6 +53,7 @@ export default function MobileMenu() {
               target="_blank"
               rel="noopener noreferrer"
               className="block text-center btn-cta !rounded-lg mt-2"
+              onClick={() => trackCTAClick("mobile_download_btn")}
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />

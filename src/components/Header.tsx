@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import MobileMenu from "./MobileMenu";
+import { trackCTAClick, trackNavClick } from "@/lib/gtag";
 
 const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
 
@@ -64,6 +65,7 @@ export default function Header() {
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2.5 group"
+            onClick={() => trackCTAClick("header_logo")}
           >
             <Image
               src="/logo.webp"
@@ -84,6 +86,7 @@ export default function Header() {
                 key={link.name}
                 href={link.href}
                 className="px-4 py-2 rounded-lg text-sm font-medium text-text-secondary hover:text-primary hover:bg-primary-50 transition-all duration-200"
+                onClick={() => trackNavClick(link.name)}
               >
                 {link.name}
               </Link>
@@ -93,6 +96,7 @@ export default function Header() {
               target="_blank"
               rel="noopener noreferrer"
               className="ml-3 btn-cta !py-2.5 !px-5 !text-sm !rounded-lg"
+              onClick={() => trackCTAClick("header_download_btn")}
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />

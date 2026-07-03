@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TrackedCTALink from "@/components/TrackedCTALink";
 
-const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
+
 
 export const metadata: Metadata = {
   title: "IX7 Game Features – Complete Platform Feature Breakdown",
@@ -44,9 +45,9 @@ export default function IX7GameFeaturesPage() {
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             IX7 Game is packed with features designed to deliver an exceptional gaming experience. From multiple game modes and a lucrative referral system to instant payouts and a VIP rewards program, every aspect of the platform has been built with the player in mind. This page covers every major feature so you know exactly what to expect when you join.
           </p>
-          <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta text-lg px-10 py-4">
+          <TrackedCTALink location="ix7_game_features_cta" className="btn-cta text-lg px-10 py-4">
             Explore IX7 Game Features
-          </a>
+          </TrackedCTALink>
         </div>
       </section>
 
@@ -111,9 +112,9 @@ export default function IX7GameFeaturesPage() {
             </div>
           </div>
           <div className="text-center mt-10">
-            <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-3">
+            <TrackedCTALink location="ix7_game_features_cta" className="btn-primary px-8 py-3">
               Experience IX7 Game Features
-            </a>
+            </TrackedCTALink>
           </div>
         </div>
       </section>

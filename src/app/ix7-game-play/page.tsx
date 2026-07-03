@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TrackedCTALink from "@/components/TrackedCTALink";
 
-const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
+
 
 export const metadata: Metadata = {
   title: "IX7 Game Play – Complete How-to-Play Guide for Beginners",
@@ -44,9 +45,9 @@ export default function IX7GamePlayPage() {
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             New to IX7 Game? This comprehensive guide walks you through everything — from opening the app for the first time to placing your first bet, collecting rewards, and withdrawing your winnings.
           </p>
-          <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta text-lg px-10 py-4">
+          <TrackedCTALink location="ix7_game_play_cta" className="btn-cta text-lg px-10 py-4">
             Start Playing IX7
-          </a>
+          </TrackedCTALink>
         </div>
       </section>
 
@@ -123,9 +124,9 @@ export default function IX7GamePlayPage() {
             </p>
           </div>
           <div className="text-center mt-10">
-            <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-3">
+            <TrackedCTALink location="ix7_game_play_cta" className="btn-primary px-8 py-3">
               Start Playing Now
-            </a>
+            </TrackedCTALink>
           </div>
         </div>
       </section>

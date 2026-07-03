@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TrackedCTALink from "@/components/TrackedCTALink";
 
-const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
+
 
 export const metadata: Metadata = {
   title: "IX7 Game Register – Create Your Free Account in 60 Seconds",
@@ -44,9 +45,9 @@ export default function IX7GameRegisterPage() {
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             Creating your IX7 Game account is free, takes under 60 seconds, and unlocks immediate access to 500+ premium games plus a generous welcome bonus. Here is exactly how to do it.
           </p>
-          <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta text-lg px-10 py-4">
+          <TrackedCTALink location="ix7_game_register_cta" className="btn-cta text-lg px-10 py-4">
             Register Now
-          </a>
+          </TrackedCTALink>
         </div>
       </section>
 
@@ -112,9 +113,9 @@ export default function IX7GameRegisterPage() {
             ))}
           </div>
           <div className="text-center mt-10">
-            <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-3">
+            <TrackedCTALink location="ix7_game_register_cta" className="btn-primary px-8 py-3">
               Register for IX7 Game
-            </a>
+            </TrackedCTALink>
           </div>
         </div>
       </section>

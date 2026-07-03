@@ -1,6 +1,7 @@
 import Link from "next/link";
+import TrackedCTALink from "@/components/TrackedCTALink";
 
-const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
+
 
 export default function NotFound() {
   return (
@@ -15,9 +16,9 @@ export default function NotFound() {
           <Link href="/" className="btn-primary">
             Back to Home
           </Link>
-          <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta">
+          <TrackedCTALink location="not_found_cta" className="btn-cta">
             Download IX7 APK
-          </a>
+          </TrackedCTALink>
         </div>
       </div>
     </section>

@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TrackedCTALink from "@/components/TrackedCTALink";
 
-const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
+
 
 export const metadata: Metadata = {
   title: "IX7 Game Online – Play 500+ Games Anywhere, Anytime",
@@ -44,9 +45,9 @@ export default function IX7GameOnlinePage() {
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             IX7 Game is a fully online platform — all 500+ games stream directly to your device in real time. Whether you are at home, commuting, or traveling, your favorite games and your account balance are always just a tap away.
           </p>
-          <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta text-lg px-10 py-4">
+          <TrackedCTALink location="ix7_game_online_cta" className="btn-cta text-lg px-10 py-4">
             Play IX7 Online
-          </a>
+          </TrackedCTALink>
         </div>
       </section>
 
@@ -113,9 +114,9 @@ export default function IX7GameOnlinePage() {
             </p>
           </div>
           <div className="text-center mt-10">
-            <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-3">
+            <TrackedCTALink location="ix7_game_online_cta" className="btn-primary px-8 py-3">
               Play IX7 Online Now
-            </a>
+            </TrackedCTALink>
           </div>
         </div>
       </section>

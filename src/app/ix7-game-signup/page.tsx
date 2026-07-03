@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TrackedCTALink from "@/components/TrackedCTALink";
 
-const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
+
 
 export const metadata: Metadata = {
   title: "IX7 Game Signup – Create Your Account in Minutes",
@@ -44,9 +45,9 @@ export default function IX7GameSignupPage() {
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             Creating an IX7 Game account is fast, free, and straightforward. In under two minutes, you will have a fully verified account ready to play, deposit, and earn rewards. This walkthrough covers every step of the IX7 Game signup process so you know exactly what to expect — no surprises, no hidden requirements.
           </p>
-          <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta text-lg px-10 py-4">
+          <TrackedCTALink location="ix7_game_signup_cta" className="btn-cta text-lg px-10 py-4">
             Sign Up for IX7 Game Now
-          </a>
+          </TrackedCTALink>
         </div>
       </section>
 
@@ -119,9 +120,9 @@ export default function IX7GameSignupPage() {
             ))}
           </div>
           <div className="text-center mt-10">
-            <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-3">
+            <TrackedCTALink location="ix7_game_signup_cta" className="btn-primary px-8 py-3">
               Create Your IX7 Game Account
-            </a>
+            </TrackedCTALink>
           </div>
         </div>
       </section>

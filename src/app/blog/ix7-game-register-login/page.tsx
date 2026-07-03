@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TrackedCTALink from "@/components/TrackedCTALink";
 
-const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
+
 
 export const metadata: Metadata = {
   title: "How to Register & Login on IX7 Game – Complete Tutorial 2026",
@@ -155,9 +156,9 @@ export default function IX7RegisterLoginPage() {
                   ))}
                 </div>
                 <div className="mt-8 text-center">
-                  <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta inline-block">
+                  <TrackedCTALink location="ix7_game_register_login_cta" className="btn-cta inline-block">
                     Register on IX7 Game
-                  </a>
+                  </TrackedCTALink>
                 </div>
               </article>
 
@@ -261,9 +262,9 @@ export default function IX7RegisterLoginPage() {
                 <p className="text-sm text-text-secondary mb-4">
                   Download the app, register in 60 seconds, and claim your welcome bonus.
                 </p>
-                <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta w-full block mb-4">
+                <TrackedCTALink location="ix7_game_register_login_cta" className="btn-cta w-full block mb-4">
                   Download &amp; Register
-                </a>
+                </TrackedCTALink>
                 <p className="text-xs text-text-muted">Android 7.0+ &bull; 42 MB &bull; Free</p>
               </div>
 

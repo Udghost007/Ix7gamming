@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
-const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
+import TrackedCTALink from "./TrackedCTALink";
 
 const quickLinks = [
   { name: "Home", href: "/" },
@@ -72,17 +71,15 @@ export default function Footer() {
           <p className="text-red-100 mb-6 mx-auto">
             Download the IX7 Game APK now and unlock 500+ premium games, daily rewards, and exclusive bonuses on your Android device.
           </p>
-          <a
-            href={CTA_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
+          <TrackedCTALink
+            location="footer_cta_banner"
             className="inline-flex items-center gap-2 bg-white text-primary font-bold py-3.5 px-8 rounded-xl hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 text-base"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
             </svg>
             Download IX7 APK Free
-          </a>
+          </TrackedCTALink>
         </div>
       </div>
 
@@ -90,12 +87,12 @@ export default function Footer() {
       <div className="max-w-7xl max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 sm:py-5  relative py-12">
         <div className="grid grid-cols-2 md:grid-cols-6 gap-8">
           <div className="col-span-2 md:col-span-1">
-            <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 mb-4 group">
+            <TrackedCTALink location="footer_logo" className="flex items-center gap-2.5 mb-4 group">
               <Image src="/logo.webp" alt="IX7 Game Logo" width={36} height={36} className="w-9 h-9 rounded-lg shadow-md" />
               <span className="text-lg font-bold text-white tracking-tight">
                 IX7<span className="text-red-400">Game</span>
               </span>
-            </a>
+            </TrackedCTALink>
             <p className="text-sm text-gray-400 leading-relaxed mb-4">
               IX7 Game is a next-generation mobile gaming platform built for Android. Enjoy a seamless experience with fast performance, secure accounts, and exciting daily rewards.
             </p>

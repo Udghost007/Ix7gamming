@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import TrackedCTALink from "@/components/TrackedCTALink";
 
-const CTA_LINK = "https://share.ix7game.org/share/agent/AA0R99AX?data=eyJtIjoyLCJsYW5nIjoiZW4iLCJpZCI6MX0=";
+
 
 export const metadata: Metadata = {
   title: "IX7 Game – 500+ Premium Games on One Android Platform",
@@ -58,9 +59,9 @@ export default function IX7GamePage() {
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             Discover a world-class game library with over 500 handpicked titles across six major categories. IX7 Game delivers the variety, quality, and fairness that serious gamers demand — all on your Android device.
           </p>
-          <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta text-lg px-10 py-4">
+          <TrackedCTALink location="ix7_game_cta" className="btn-cta text-lg px-10 py-4">
             Explore IX7 Game
-          </a>
+          </TrackedCTALink>
         </div>
       </section>
 
@@ -132,9 +133,9 @@ export default function IX7GamePage() {
             </table>
           </div>
           <div className="text-center mt-10">
-            <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-3">
+            <TrackedCTALink location="ix7_game_cta" className="btn-primary px-8 py-3">
               Start Playing IX7 Game
-            </a>
+            </TrackedCTALink>
           </div>
         </div>
       </section>
