@@ -5,12 +5,14 @@ import FaqAccordion from "./FaqAccordion";
 import TrackedCTALink from "./TrackedCTALink";
 
 const infoRows = [
-  { label: "Application", value: "IX7 Game" },
-  { label: "Platform", value: "Android (APK)" },
+  { label: "App Name", value: "IX7 Game APK" },
+  { label: "Version", value: "1.7.1 (Latest 2026)" },
+  { label: "App Size", value: "21.98 MB" },
+  { label: "Platform", value: "Android 5.0+" },
   { label: "Game Library", value: "500+ Premium Titles" },
-  { label: "Registration", value: "Free & Instant" },
+  { label: "Sign-Up Bonus", value: "Rs. 200 Free" },
   { label: "Login Method", value: "Mobile Number / Email" },
-  { label: "Interface", value: "Modern & Intuitive" },
+  { label: "Withdrawal", value: "UPI, Net Banking, IMPS" },
   { label: "Updates", value: "Weekly New Content" },
   { label: "Security", value: "256-bit SSL Encrypted" },
 ];
@@ -105,6 +107,22 @@ const faqs = [
   {
     q: "What devices are compatible with IX7 Game?",
     a: "IX7 Game runs on any Android device with Android 5.0 or higher, at least 2GB RAM, and 60MB of free storage. It is optimized for both phones and tablets.",
+  },
+  {
+    q: "How do I login to IX7 Game?",
+    a: "Use your registered mobile number and password to login. IX7 Game also supports OTP-based login for quick access. If you forget your password, use the forgot password option to reset it.",
+  },
+  {
+    q: "Can I withdraw my bonus money from IX7 Game?",
+    a: "Bonus usage depends on the app terms. Usually, bonus amounts must be wagered before withdrawal. Check the IX7 Game app for current bonus terms and withdrawal requirements.",
+  },
+  {
+    q: "Is IX7 Game available on the Play Store?",
+    a: "Currently, IX7 Game is available via direct APK download from the official website. This allows faster updates and the full feature set without Play Store restrictions.",
+  },
+  {
+    q: "What payment methods does IX7 Game support?",
+    a: "IX7 Game supports UPI (PhonePe, GPay, Paytm), Net Banking, and IMPS for both deposits and withdrawals. Transactions are fast, secure, and have no hidden charges.",
   },
 ];
 
@@ -388,6 +406,93 @@ export default function HomePage() {
           <p className="text-center text-sm text-text-muted mt-6">
             Promotions are updated regularly. Check the IX7 Game app for the latest offers and eligibility.
           </p>
+        </div>
+      </section>
+
+      {/* How IX7 Works */}
+      <section className="section-padding bg-surface">
+        <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 py-3 sm:py-5 relative">
+          <div className="text-center mb-10">
+            <span className="inline-block px-3 py-1 rounded-full bg-primary-100 text-primary text-sm font-medium mb-4">
+              Simple Process
+            </span>
+            <h2 className="text-2xl sm:text-3xl font-bold text-text-primary mb-3">
+              How IX7 Game Works
+            </h2>
+            <p className="text-text-secondary mx-auto">
+              Start earning in just 5 simple steps — from registration to withdrawal.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+            {[
+              { step: "1", icon: "📝", title: "Register", desc: "Sign up using your mobile number" },
+              { step: "2", icon: "🎉", title: "Get Bonus", desc: "Receive Rs.200 sign-up bonus instantly" },
+              { step: "3", icon: "🎮", title: "Play Games", desc: "Choose from 500+ premium games" },
+              { step: "4", icon: "✅", title: "Complete Tasks", desc: "Earn daily rewards and bonuses" },
+              { step: "5", icon: "💸", title: "Withdraw", desc: "Cash out via UPI or bank transfer" },
+            ].map((s) => (
+              <div key={s.step} className="card p-5 text-center">
+                <span className="text-3xl mb-2 block">{s.icon}</span>
+                <p className="text-sm font-bold text-text-primary mb-1">{s.title}</p>
+                <p className="text-xs text-text-secondary">{s.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Deposit & Withdrawal */}
+      <section className="section-padding bg-white">
+        <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 py-3 sm:py-5 relative">
+          <div className="text-center mb-10">
+            <span className="inline-block px-3 py-1 rounded-full bg-accent/10 text-accent-dark text-sm font-medium mb-4">
+              Payments
+            </span>
+            <h2 className="text-2xl sm:text-3xl font-bold text-text-primary mb-3">
+              IX7 Game Deposit & Withdrawal Methods
+            </h2>
+            <p className="text-text-secondary mx-auto">
+              Fast, secure, and hassle-free transactions with multiple payment options.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
+            <div className="card p-6">
+              <h3 className="text-lg font-bold text-text-primary mb-4 flex items-center gap-2">
+                <span className="text-2xl">💳</span> Deposit Methods
+              </h3>
+              <ul className="space-y-3">
+                {[
+                  { method: "UPI", detail: "PhonePe, GPay, Paytm" },
+                  { method: "Net Banking", detail: "All major banks supported" },
+                  { method: "IMPS", detail: "Instant bank transfer" },
+                ].map((p) => (
+                  <li key={p.method} className="flex items-center justify-between text-sm">
+                    <span className="font-medium text-text-primary">{p.method}</span>
+                    <span className="text-text-secondary">{p.detail}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="text-xs text-text-muted mt-4">Instant deposits with no hidden charges</p>
+            </div>
+            <div className="card p-6">
+              <h3 className="text-lg font-bold text-text-primary mb-4 flex items-center gap-2">
+                <span className="text-2xl">💸</span> Withdrawal Methods
+              </h3>
+              <ul className="space-y-3">
+                {[
+                  { method: "UPI Transfer", detail: "Credited within minutes" },
+                  { method: "Bank Transfer", detail: "Direct to your account" },
+                  { method: "IMPS", detail: "Fast & secure payout" },
+                ].map((p) => (
+                  <li key={p.method} className="flex items-center justify-between text-sm">
+                    <span className="font-medium text-text-primary">{p.method}</span>
+                    <span className="text-text-secondary">{p.detail}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="text-xs text-text-muted mt-4">No hidden charges — minimum withdrawal limits apply</p>
+            </div>
+          </div>
         </div>
       </section>
 

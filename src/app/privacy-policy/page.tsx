@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     title: "Privacy Policy – IX7 Gaming",
     description: "Learn how ix7gamming.com collects, uses, and protects your personal information.",
     url: "https://ix7gamming.com/privacy-policy",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "IX7 Game Privacy Policy" }],
   },
   twitter: {
     card: "summary",

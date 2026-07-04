@@ -23,6 +23,38 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://ix7gamming.com/download" },
 };
 
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Is IX7 Game APK free to download?",
+      acceptedAnswer: { "@type": "Answer", text: "Yes, IX7 Game APK is completely free to download and install. There are no hidden charges for downloading or creating an account. The app offers optional in-app purchases for premium features." },
+    },
+    {
+      "@type": "Question",
+      name: "Is it safe to download IX7 APK outside the Play Store?",
+      acceptedAnswer: { "@type": "Answer", text: "Yes, downloading from the official IX7 Game website is safe. The APK is digitally signed, scanned for malware, and verified by Google Play Protect during installation. Always avoid third-party APK mirror sites." },
+    },
+    {
+      "@type": "Question",
+      name: "What Android version do I need for IX7 Game?",
+      acceptedAnswer: { "@type": "Answer", text: "IX7 Game requires Android 5.0 (Lollipop) or higher. For the best experience, Android 12.0 or newer with at least 4 GB RAM is recommended." },
+    },
+    {
+      "@type": "Question",
+      name: "How large is the IX7 Game APK file?",
+      acceptedAnswer: { "@type": "Answer", text: "The IX7 Game APK is under 60 MB, making it one of the lightest gaming platforms available. A brief 5-10 MB data sync occurs on first launch to download the latest game assets." },
+    },
+    {
+      "@type": "Question",
+      name: "How do I update IX7 Game to the latest version?",
+      acceptedAnswer: { "@type": "Answer", text: "IX7 Game notifies you in-app when a new version is available. Simply tap the update notification, download the new APK, and install it over the existing version. Your account data is preserved server-side." },
+    },
+  ],
+};
+
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -61,6 +93,7 @@ export default function DownloadPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
       {/* Hero */}
       <section className="hero-gradient-soft relative overflow-hidden">
@@ -151,6 +184,31 @@ export default function DownloadPage() {
                 <h3 className="text-lg font-semibold mb-2">{tip.title}</h3>
                 <p className="text-gray-600 text-sm">{tip.description}</p>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="section-padding">
+        <div className="container max-w-3xl px-2 mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-4">Frequently Asked Questions</h2>
+          <p className="text-gray-600 text-center max-w-xl mx-auto mb-10">Common questions about downloading and installing IX7 Game APK.</p>
+          <div className="space-y-4">
+            {[
+              { q: "Is IX7 Game APK free to download?", a: "Yes, IX7 Game APK is completely free to download and install. There are no hidden charges for downloading or creating an account. The app offers optional in-app purchases for premium features." },
+              { q: "Is it safe to download IX7 APK outside the Play Store?", a: "Yes, downloading from the official IX7 Game website is safe. The APK is digitally signed, scanned for malware, and verified by Google Play Protect during installation. Always avoid third-party APK mirror sites." },
+              { q: "What Android version do I need for IX7 Game?", a: "IX7 Game requires Android 5.0 (Lollipop) or higher. For the best experience, Android 12.0 or newer with at least 4 GB RAM is recommended." },
+              { q: "How large is the IX7 Game APK file?", a: "The IX7 Game APK is under 60 MB, making it one of the lightest gaming platforms available. A brief 5-10 MB data sync occurs on first launch to download the latest game assets." },
+              { q: "How do I update IX7 Game to the latest version?", a: "IX7 Game notifies you in-app when a new version is available. Simply tap the update notification, download the new APK, and install it over the existing version. Your account data is preserved server-side." },
+            ].map((faq) => (
+              <details key={faq.q} className="card p-5 group">
+                <summary className="font-semibold cursor-pointer list-none flex items-center justify-between">
+                  {faq.q}
+                  <span className="text-primary ml-2 group-open:rotate-180 transition-transform">&#9660;</span>
+                </summary>
+                <p className="text-gray-600 text-sm mt-3 leading-relaxed">{faq.a}</p>
+              </details>
             ))}
           </div>
         </div>

@@ -29,6 +29,10 @@ const faqJsonLd = {
     { "@type": "Question", name: "How do I create an IX7 Game account?", acceptedAnswer: { "@type": "Answer", text: "Open the IX7 app, tap Register, enter your mobile number or email, set a password, verify via OTP, and your account is ready in under 60 seconds." } },
     { "@type": "Question", name: "Is my personal information safe on IX7 Game?", acceptedAnswer: { "@type": "Answer", text: "Absolutely. IX7 Game uses 256-bit SSL encryption, secure servers, and multi-factor authentication to protect all user data and transactions." } },
     { "@type": "Question", name: "What devices are compatible with IX7 Game?", acceptedAnswer: { "@type": "Answer", text: "IX7 Game runs on any Android device with Android 5.0 or higher, at least 2GB RAM, and 60MB of free storage." } },
+    { "@type": "Question", name: "How do I login to IX7 Game?", acceptedAnswer: { "@type": "Answer", text: "Use your registered mobile number and password to login. IX7 Game also supports OTP-based login for quick access. If you forget your password, use the forgot password option to reset it." } },
+    { "@type": "Question", name: "Can I withdraw my bonus money from IX7 Game?", acceptedAnswer: { "@type": "Answer", text: "Bonus usage depends on the app terms. Usually, bonus amounts must be wagered before withdrawal. Check the IX7 Game app for current bonus terms and withdrawal requirements." } },
+    { "@type": "Question", name: "Is IX7 Game available on the Play Store?", acceptedAnswer: { "@type": "Answer", text: "Currently, IX7 Game is available via direct APK download from the official website. This allows faster updates and the full feature set without Play Store restrictions." } },
+    { "@type": "Question", name: "What payment methods does IX7 Game support?", acceptedAnswer: { "@type": "Answer", text: "IX7 Game supports UPI (PhonePe, GPay, Paytm), Net Banking, and IMPS for both deposits and withdrawals. Transactions are fast, secure, and have no hidden charges." } },
   ],
 };
 

@@ -23,6 +23,38 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://ix7gamming.com/features" },
 };
 
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "How many games are available on IX7 Game?",
+      acceptedAnswer: { "@type": "Answer", text: "IX7 Game offers over 500 premium games across categories including slots, live dealer tables, sports betting, card games, and arcade classics. New titles are added every week." },
+    },
+    {
+      "@type": "Question",
+      name: "Is IX7 Game secure for personal data?",
+      acceptedAnswer: { "@type": "Answer", text: "Yes, IX7 Game uses 256-bit SSL encryption, multi-factor authentication, and undergoes quarterly third-party security audits. The platform has a strict no-data-sale policy." },
+    },
+    {
+      "@type": "Question",
+      name: "Does IX7 Game offer daily rewards?",
+      acceptedAnswer: { "@type": "Answer", text: "Yes, IX7 Game features escalating daily login bonuses, weekly promotional tournaments, a tiered VIP loyalty program, and referral rewards for inviting friends." },
+    },
+    {
+      "@type": "Question",
+      name: "What makes IX7 Game faster than other platforms?",
+      acceptedAnswer: { "@type": "Answer", text: "IX7 Game is built on a native-optimized engine delivering sub-second load times and 60 fps animations. The entire APK is under 60 MB with adaptive quality for older devices." },
+    },
+    {
+      "@type": "Question",
+      name: "Does IX7 Game have customer support?",
+      acceptedAnswer: { "@type": "Answer", text: "Yes, IX7 Game offers 24/7 multilingual customer support via in-app live chat, email, and social media channels with an average response time under 5 minutes." },
+    },
+  ],
+};
+
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -86,6 +118,7 @@ export default function FeaturesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
       {/* Hero */}
       <section className="hero-gradient-soft relative overflow-hidden">
@@ -162,6 +195,31 @@ export default function FeaturesPage() {
                 ))}
               </tbody>
             </table>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="section-padding">
+        <div className="container max-w-3xl px-2 mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-4">Frequently Asked Questions</h2>
+          <p className="text-gray-600 text-center max-w-xl mx-auto mb-10">Everything you need to know about IX7 Game features.</p>
+          <div className="space-y-4">
+            {[
+              { q: "How many games are available on IX7 Game?", a: "IX7 Game offers over 500 premium games across categories including slots, live dealer tables, sports betting, card games, and arcade classics. New titles are added every week." },
+              { q: "Is IX7 Game secure for personal data?", a: "Yes, IX7 Game uses 256-bit SSL encryption, multi-factor authentication, and undergoes quarterly third-party security audits. The platform has a strict no-data-sale policy." },
+              { q: "Does IX7 Game offer daily rewards?", a: "Yes, IX7 Game features escalating daily login bonuses, weekly promotional tournaments, a tiered VIP loyalty program, and referral rewards for inviting friends." },
+              { q: "What makes IX7 Game faster than other platforms?", a: "IX7 Game is built on a native-optimized engine delivering sub-second load times and 60 fps animations. The entire APK is under 60 MB with adaptive quality for older devices." },
+              { q: "Does IX7 Game have customer support?", a: "Yes, IX7 Game offers 24/7 multilingual customer support via in-app live chat, email, and social media channels with an average response time under 5 minutes." },
+            ].map((faq) => (
+              <details key={faq.q} className="card p-5 group">
+                <summary className="font-semibold cursor-pointer list-none flex items-center justify-between">
+                  {faq.q}
+                  <span className="text-primary ml-2 group-open:rotate-180 transition-transform">&#9660;</span>
+                </summary>
+                <p className="text-gray-600 text-sm mt-3 leading-relaxed">{faq.a}</p>
+              </details>
+            ))}
           </div>
         </div>
       </section>

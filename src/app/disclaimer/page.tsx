@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     title: "Disclaimer – IX7 Gaming",
     description: "Understand the terms under which ix7gamming.com provides content about IX7 Game.",
     url: "https://ix7gamming.com/disclaimer",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "IX7 Game Disclaimer" }],
   },
   twitter: {
     card: "summary",
